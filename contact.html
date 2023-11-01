@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="logores.svg.png" type="image/x-icon">
+  <title>Contact | VISHNU'S CAFE</title>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./globalStyles.css">
+  <link rel="stylesheet" href="./components.css">
+  <!-- aos library css  -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Add your custom css -->
+</head>
+
+<body>
+  <style>
+    .btn-success{
+      background-color:black;
+	color: white !important;
+	padding: 10px;
+	border-radius: 20px;
+    }
+  </style>
+  <style>
+    .nav__link:hover{
+	background-color:#26643b;
+	color: white !important;
+	padding: 10px;
+	border-radius: 20px;
+}
+.primary-btn:hover{
+	background-color: #3c9259;
+}
+  </style>
+  <!-- Nav Section -->
+  <div class="nav">
+    <div class="container">
+      <div class="nav__wrapper">
+        <a href="./index.html" class="logo">
+          <img src="logores.svg.png" alt="vishnu's cafe" style="width: 100%;height: 200px;">
+        </a>
+        <nav>
+          <div class="nav__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-menu">
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          </div>
+          <div class="nav__bgOverlay"></div>
+          <ol class="nav__list">
+            <div class="nav__close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-x">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </div>
+            <div class="nav__list__wrapper">
+
+              <li><a class="nav__link" href="./index.html">Home</a></li>
+              <li><a class="nav__link" href="./menu.html">Menu</a></li>
+              <li><a class="nav__link" href="./about.html">About</a></li>
+              <li><a class="btn primary-btn" href="./contact.html">Contact</a></li>
+              <li><a href="./booking.html" class="btn btn-success">Book Table</a></li>
+            </div>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- End Nav Section -->
+  <!-- Store Info Section -->
+  <section id="storeInfo" data-aos="fade-up">
+    <div class="container">
+      <div class="storeInfo__wrapper">
+        <div class="storeInfo__item">
+          <div class="storeInfo__icon">
+            <img src="./images/wall-clock-icon.svg" alt="clock icon">
+          </div>
+          <h3 class="storeInfo__title">
+            10 AM - 7 PM
+          </h3>
+          <p class="storeInfo__text">
+            Opening Hour
+          </p>
+        </div>
+        <div class="storeInfo__item">
+          <div class="storeInfo__icon">
+            <img src="./images/address-icon.svg" alt="clock icon">
+          </div>
+          <h3 class="storeInfo__title">
+           Vishnu's cafe,   
+             
+            <br>AS Block,
+            <br>Bannari Amman institute of Technology.
+          </h3>
+          <p class="storeInfo__text">
+           TamilNadu
+          </p>
+        </div>
+        <div class="storeInfo__item">
+          <div class="storeInfo__icon">
+            <img src="./images/phone-icon.svg" alt="clock icon">
+          </div>
+          <h3 class="storeInfo__title">
+            +91 9443927277
+          </h3>
+          <p class="storeInfo__text">
+            Call Now
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- aos script -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- custom script -->
+  <script src="./main.js"></script>
+</body>
+
+</html>
